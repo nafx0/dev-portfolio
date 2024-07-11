@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.dark2 {
+    color: #474747;
+}
 nav {
     display: flex;
     align-items: center;
@@ -42,4 +45,29 @@ nav ul li {
     border-radius: 5px;
     height: 64px;
     width: 150px;
+}
+.banner-greetings {
+ font-size: 45px;
+ font-weight: 600;   
+}
+.banner-name {
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description {
+    font-size: 18px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content {
+    max-width: 585px;
+    max-height: 356px;
+}
+header {
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
