@@ -8,6 +8,9 @@
 }
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title {
    font-weight: 800px;
@@ -15,4 +18,28 @@ nav {
 }
 .text-primary {
     color: #FD6E0A;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li {  
+    list-style: none;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.btn {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35 px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
 }
