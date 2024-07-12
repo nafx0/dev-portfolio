@@ -9,6 +9,12 @@
 .dark2 {
     color: #474747;
 }
+.dark3{
+    color: ;
+}
+.bg-secondary {
+    background-color: #FFF8F3;
+}
 nav {
     display: flex;
     align-items: center;
@@ -45,6 +51,7 @@ nav ul li {
     border-radius: 5px;
     height: 64px;
     width: 150px;
+    cursor: pointer;
 }
 .banner-greetings {
  font-size: 45px;
@@ -79,6 +86,7 @@ header {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
 .section-title {
     font-weight: bold;
     font-size: 35px;
@@ -90,6 +98,7 @@ main {
     margin: 0 auto;
 }
 .about {
+    margin: 130px 0px;
     padding: 131px 156px;
 }
 .about-description {
@@ -117,4 +126,28 @@ main {
     align-items: center;
     font-size: 20px;
     font-weight: 700;
+}
+.skills-title {
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.skills-description {
+    color: #757575;
+    font-size: 18px;
+    max-width: 909px;
+    max-height: 90px;
+    margin: 30px 100px;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    margin: 50px 10px;
+    gap: 24px;
+}
+.card {
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
