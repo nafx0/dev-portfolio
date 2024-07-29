@@ -283,4 +283,9 @@ text-align: left;
     .resume-coloumn {
         margin-right: 0px;
     }
+    .banner {
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
 }
