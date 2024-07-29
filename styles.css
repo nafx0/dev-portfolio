@@ -16,7 +16,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin-left: 200px;
 }
 .nav-title {
    font-weight: 800px;
@@ -51,8 +51,8 @@ nav ul li {
     cursor: pointer;
 }
 .banner-greetings {
- font-size: 45px;
- font-weight: 600;   
+     font-size: 45px;
+     font-weight: 600;   
 }
 .banner-name {
     font-size: 85px;
@@ -62,12 +62,12 @@ nav ul li {
     font-size: 18px;
     margin-bottom: 36px;
     color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .banner {
     display: flex;
@@ -75,8 +75,8 @@ text-align: left;
     margin: 0 35px 0 200px;
 }
 .banner-content {
-    max-width: 585px;
-    max-height: 356px;
+    max-width: 100%;
+    
 }
 header {
     background-image: url('images/developer.png'), url('images/header_bg.png');
@@ -87,8 +87,7 @@ header {
 .section-title {
     font-weight: bold;
     font-size: 35px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 main {
     max-width: 1140px;
@@ -124,18 +123,18 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
+.skill {
+    display: flex;
+}
 .skills-title {
     font-size: 35px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .skills-description {
     color: #757575;
     font-size: 18px;
-    max-width: 909px;
-    max-height: 90px;
-    margin: 30px 100px;
+    max-width: 100%;
     text-align: center;
 }
 .card-container {
@@ -233,4 +232,41 @@ font-weight: 400;
 line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
+}
+.hide {
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .card-container, 
+    .resume-sum, 
+    footer, 
+    .about-items,
+    nav,
+    nav ul,
+    nav ul li,
+    .banner {
+        flex-direction: column;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea {
+        width: calc(100% - 40px);
+    }
+    .about{
+        padding: 20px;
+    }
+    nav,
+    nav ul {
+        gap: 2vh;
+    }
+    header {
+        background-image: none;
+    }
+    nav, .banner {
+        margin-left: 0px;
+    }
+    .btn1-container {
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        
+    }
 }
